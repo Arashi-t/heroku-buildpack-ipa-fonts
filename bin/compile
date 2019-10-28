@@ -3,9 +3,9 @@
 BUILD_DIR=$1
 CACHE_DIR=$2
 
-FONT_ZIP=IPAexfont00401.zip
-FONTS_URL=https://ipafont.ipa.go.jp/IPAexfont/IPAexfont00401.zip
-FONTS=IPAexfont00401
+FONT_ZIP=IPAfont00303.zip
+FONTS_URL=https://ipafont.ipa.go.jp/old/ipafont/IPAfont00303.php
+FONTS=IPAfont00303
 
 [ -f $CACHE_DIR/$FONT_ZIP ] || \
   wget -nv $FONTS_URL -O $CACHE_DIR/$FONT_ZIP && \
